@@ -1,0 +1,20 @@
+# Python cache and metadata
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Build artifacts
+build/
+openfold.egg-info/
+*.so
+**/*.so
+
+# Ninja build system
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Temporary build directories
+lib.*/
+temp.*/
